@@ -1,0 +1,202 @@
+.header {
+  position: static;
+  width: 100%;
+  margin-bottom: 0px;
+  border-style: solid;
+  border-width: 0px 0px 5px;
+  border-color: #000 #000 #4d78e4;
+  background-image: url('../images/Untitled-design-2.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.header-image {
+  position: static;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 50px 25px;
+  opacity: 0.9;
+}
+
+.main-content {
+  margin-bottom: 20px;
+}
+
+.contentsection1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.page-titlearea {
+  width: auto;
+  margin: 54px auto 0px;
+  padding-right: 25px;
+  padding-left: 25px;
+  background-color: #3d3c3c;
+  text-align: center;
+}
+
+.h1 {
+  margin: 0px auto 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.h2 {
+  color: #306aaa;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.h2.listen {
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.h3 {
+  color: #3d3c3c;
+  font-size: 22px;
+}
+
+.h4 {
+  margin-top: 0px;
+  color: #306aaa;
+}
+
+.p {
+  color: #000;
+  font-size: 16px;
+}
+
+.p.topsection {
+  margin-bottom: 27px;
+}
+
+.howimage {
+  overflow: visible;
+  max-width: 100%;
+  padding-top: 15px;
+  padding-bottom: 21px;
+}
+
+.drivdiv {
+  margin-right: 5%;
+}
+
+.griddiv2 {
+  margin-left: 5%;
+}
+
+.content-section2 {
+  margin-bottom: 0px;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .06), rgba(0, 0, 0, .06));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .06), rgba(0, 0, 0, .06));
+}
+
+.icon-headphones {
+  margin-top: 40px;
+}
+
+.audiicon {
+  max-width: 100px;
+  padding-top: 25px;
+  padding-right: 30px;
+  padding-bottom: 25px;
+  float: left;
+}
+
+.sectionhowtolisten {
+  width: auto;
+  max-width: 990px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.headphones {
+  padding-top: 30px;
+}
+
+.gridcontainer {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.navbar {
+  height: 30px;
+  padding-top: 4px;
+  background-color: #000;
+}
+
+.navlogo {
+  width: auto;
+  height: auto;
+  margin-top: 13px;
+  margin-left: 25px;
+  padding-top: 0px;
+}
+
+.skiplink {
+  margin-top: 0px;
+  padding-top: 0px;
+  color: #f5eb0b;
+}
+
+.list1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.topnav {
+  padding-left: 10px;
+}
+
+@media (max-width: 767px) {
+  .header-image {
+    max-width: 400px;
+  }
+  .contentsection1 {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .drivdiv {
+    margin-right: 0%;
+  }
+  .griddiv2 {
+    margin-top: 35px;
+    margin-left: 0%;
+  }
+  .content-section2 {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .topnav {
+    padding-left: 24px;
+  }
+}
+
+@media (max-width: 479px) {
+  .header-image {
+    width: 100%;
+    max-width: 300px;
+  }
+  .icon-headphones {
+    padding-top: 0px;
+    padding-left: 0px;
+    float: left;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    -webkit-perspective: 1286px;
+    perspective: 1286px;
+  }
+}
+
