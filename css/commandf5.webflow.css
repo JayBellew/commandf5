@@ -3,12 +3,9 @@
   width: 100%;
   margin-bottom: 0px;
   border-style: solid;
-  border-width: 0px 0px 5px;
+  border-width: 0px;
   border-color: #000 #000 #4d78e4;
-  background-image: url('../images/Untitled-design-2.png');
-  background-position: 0px 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #036;
   text-align: center;
 }
 
@@ -17,8 +14,8 @@
   max-width: 800px;
   margin-right: auto;
   margin-left: auto;
-  padding: 50px 25px;
-  opacity: 0.9;
+  padding: 30px 25px 12px;
+  opacity: 1;
 }
 
 .main-content {
@@ -26,7 +23,7 @@
 }
 
 .contentsection1 {
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 30px;
 }
 
@@ -35,49 +32,63 @@
   margin: 54px auto 0px;
   padding-right: 25px;
   padding-left: 25px;
-  background-color: #3d3c3c;
+  background-color: #fff;
   text-align: center;
 }
 
 .h1 {
-  margin: 0px auto 25px;
+  margin: 0px auto 13px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   font-family: 'Open Sans', sans-serif;
-  color: #fff;
-  font-size: 35px;
+  font-size: 40px;
+  line-height: 50px;
   font-weight: 400;
   text-align: center;
 }
 
 .h2 {
-  color: #306aaa;
+  margin-bottom: 21px;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
   font-size: 36px;
+  line-height: 50px;
   font-weight: 400;
+  text-align: center;
 }
 
 .h2.listen {
   margin-bottom: 30px;
-  color: #fff;
+  color: #333;
 }
 
 .h3 {
+  font-family: 'Open Sans', sans-serif;
   color: #3d3c3c;
   font-size: 22px;
+  line-height: 32px;
 }
 
 .h4 {
   margin-top: 0px;
+  font-family: 'Open Sans', sans-serif;
   color: #306aaa;
+  font-size: 33px;
+  line-height: 46px;
 }
 
 .p {
+  font-family: 'Open Sans', sans-serif;
   color: #000;
   font-size: 16px;
+  line-height: 25px;
 }
 
 .p.topsection {
   margin-bottom: 27px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .howimage {
@@ -97,8 +108,6 @@
 
 .content-section2 {
   margin-bottom: 0px;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .06), rgba(0, 0, 0, .06));
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .06), rgba(0, 0, 0, .06));
 }
 
 .icon-headphones {
@@ -122,17 +131,18 @@
 
 .headphones {
   padding-top: 30px;
+  opacity: 0.76;
 }
 
 .gridcontainer {
-  padding-top: 50px;
+  padding-top: 33px;
   padding-bottom: 100px;
 }
 
 .navbar {
   height: 30px;
   padding-top: 4px;
-  background-color: #000;
+  background-color: #fff;
 }
 
 .navlogo {
@@ -149,6 +159,11 @@
   color: #f5eb0b;
 }
 
+.skiplink.w--current {
+  font-family: 'Open Sans', sans-serif;
+  color: #0d53bd;
+}
+
 .list1 {
   margin-top: 25px;
   margin-bottom: 25px;
@@ -158,6 +173,67 @@
   padding-left: 10px;
 }
 
+.banner-title {
+  padding-top: 0px;
+  padding-bottom: 39px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.row {
+  margin: 30px 0px 45px;
+  padding-right: 0%;
+  padding-left: 0%;
+}
+
+.image {
+  padding-right: 0%;
+  padding-bottom: 20px;
+  border: 0px solid #fff;
+  border-radius: 0px;
+}
+
+.logotitle {
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.heroblock {
+  min-height: 250px;
+  margin-bottom: 16px;
+  background-image: url('../images/Untitled-design-2.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  text-align: center;
+}
+
+.hero-right-image {
+  max-width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 61px;
+  opacity: 0.79;
+}
+
+.col-right {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .header-image {
+    max-width: 600px;
+  }
+  .hero-right-image {
+    max-width: 75%;
+    padding-top: 53px;
+  }
+}
+
 @media (max-width: 767px) {
   .header-image {
     max-width: 400px;
@@ -165,6 +241,9 @@
   .contentsection1 {
     padding-right: 25px;
     padding-left: 25px;
+  }
+  .h3 {
+    line-height: 30px;
   }
   .drivdiv {
     margin-right: 0%;
@@ -182,6 +261,15 @@
   .topnav {
     padding-left: 24px;
   }
+  .banner-title {
+    line-height: 35px;
+  }
+  .logotitle {
+    max-width: 450px;
+  }
+  .hero-right-image {
+    max-width: 88%;
+  }
 }
 
 @media (max-width: 479px) {
@@ -197,6 +285,16 @@
     filter: invert(100%);
     -webkit-perspective: 1286px;
     perspective: 1286px;
+  }
+  .logotitle {
+    max-width: 80%;
+  }
+  .heroblock {
+    min-height: 125px;
+  }
+  .hero-right-image {
+    max-width: 76%;
+    padding-top: 29px;
   }
 }
 
