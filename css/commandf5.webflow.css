@@ -318,3 +318,9 @@
   }
 }
 
+@font-face {
+  font-family: 'Opendyslexic regular';
+  src: url('../fonts/OpenDyslexic-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
