@@ -4337,5 +4337,6 @@
  */
 Webflow.require('ix').init([
   {"slug":"new-interaction","name":"New Interaction","value":{"style":{},"triggers":[]}},
-  {"slug":"new-interaction-2","name":"New Interaction 2","value":{"style":{},"triggers":[]}}
+  {"slug":"new-interaction-2","name":"New Interaction 2","value":{"style":{},"triggers":[]}},
+  {"slug":"new-interaction-3","name":"New Interaction 3","value":{"style":{},"triggers":[]}}
 ]);
