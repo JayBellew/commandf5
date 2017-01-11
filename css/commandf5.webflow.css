@@ -224,6 +224,26 @@
   text-align: center;
 }
 
+.hidden {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  display: block;
+}
+
+.footer {
+  text-align: center;
+}
+
+.twitter {
+  margin-left: auto;
+}
+
+.footercontainer {
+  padding-top: 15px;
+  border-top: 2px solid #ccc;
+}
+
 @media (max-width: 991px) {
   .header-image {
     max-width: 600px;

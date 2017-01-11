@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com -->
-<!--  Last Published: Tue Jan 10 2017 22:47:14 GMT+0000 (UTC)  -->
+<!--  Last Published: Wed Jan 11 2017 02:01:57 GMT+0000 (UTC)  -->
 <html data-wf-page="586ff3a9169715a10ac2fe9c" data-wf-site="586ff3a9169715a10ac2fe9b" lang="en">
 <head>
   <meta charset="utf-8">
@@ -23,17 +23,18 @@
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
 </head>
 <body>
-  <div class="navbar" id="Navigation">
+  <h1 class="hidden">Welcome to the command f5 project</h1>
+  <nav class="navbar" id="Navigation" role="navigation">
     <div class="topnav w-container"><a class="a" href="#Content">Skip To Main Content</a>
     </div>
-  </div>
-  <div class="header"><img alt="Command F5 Project Logo" class="header-image" src="images/F5new-logo.png">
+  </nav>
+  <header class="header" id="header" role="banner"><img alt="Command F5 Project Logo" class="header-image" src="images/F5new-logo.png">
     <div class="logotitle">
       <div class="banner-title">A Project Focused on Encouraging Inclusive Design &amp; Development</div>
     </div>
-  </div>
+  </header>
   <div class="main-content">
-    <div class="contentsection1 w-container" id="Content">
+    <main class="contentsection1 w-container" id="Content" role="main">
       <h2 class="h2">Let's make our Websites and Apps Accessible to Everyone!</h2>
       <div class="heroblock"><img alt="photo showing the mac user operation command key and f5 key" class="hero-right-image" src="images/Mac-Users.png">
       </div>
@@ -42,7 +43,7 @@
       <div class="p topsection">Spend some time using your site or app by <strong>listening</strong> through a screen reader and keyboard only. &nbsp;You'll have an immediate appreciation for the challenges many of your users are having with your site.</div>
       <h3 class="h4">Step 2: Learn</h3>
       <div class="p"><strong>Learn</strong> as much as you can about designing and developing for folks with disabilities. &nbsp;It's easier than you think.</div>
-    </div>
+    </main>
   </div>
   <div class="page-titlearea">
     <div class="h2 w-container"><img alt="icon showing a computer monitor and headphones" class="headphones" src="images/headphone-dark.png">
@@ -50,7 +51,7 @@
     </div>
   </div>
   <div class="content-section2">
-    <div class="gridcontainer w-container">
+    <footer class="gridcontainer w-container" id="Footer" roles="contentinfo">
       <div class="w-row">
         <div class="col1 w-col w-col-6">
           <div class="drivdiv">
@@ -89,7 +90,15 @@
           </div>
         </div>
       </div>
-    </div>
+    </footer>
+    <footer class="footer" id="footer" role="contentinfo">
+      <div class="footercontainer w-container">
+        <h4 class="a hidden">Important Information:</h4>
+        <div data-ix="new-interaction-2">Command F5 is a side project by Jay Bellew, UX Designer and Maker of Web Stuff
+          <br>Visit me on Twitter: <a href="https://twitter.com/jaybellew" target="_blank">@JayBellew</a>
+        </div>
+      </div>
+    </footer>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
