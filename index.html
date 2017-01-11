@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com -->
-<!--  Last Published: Wed Jan 11 2017 14:25:40 GMT+0000 (UTC)  -->
+<!--  Last Published: Wed Jan 11 2017 21:15:46 GMT+0000 (UTC)  -->
 <html data-wf-page="5875adecf771688e0ac817cb" data-wf-site="586ff3a9169715a10ac2fe9b" lang="en">
 <head>
   <meta charset="utf-8">
@@ -37,14 +37,27 @@
   </script>
 </head>
 <body data-ix="new-interaction-3">
-  <h1 class="hidden">Welcome to the command f5 project</h1>
-  <nav class="navbar" id="Navigation" role="navigation">
-    <div class="topnav w-container"><a class="a" href="#Content">Skip To Main Content</a>
+  <div data-ix="new-interaction-4">
+    <nav class="navbar skipcontentbar" id="Navigation" role="navigation">
+      <div class="topnav w-container"><a class="a skiplink" href="#Content">Skip To Main Content</a>
+      </div>
+    </nav>
+    <div class="navblock w-nav" data-animation="default" data-collapse="tiny" data-duration="400">
+      <div class="w-container">
+        <a class="w-nav-brand" href="index.html"><img alt="Command F5 Logo" class="menu-logo" src="images/F5new-logo.png">
+        </a>
+        <nav class="dropdown w-nav-menu" role="navigation"><a class="nav-link w-nav-link" href="about.html">About</a><a class="nav-link w-nav-link" href="https://medium.com/command-f5" target="_blank">Blog</a>
+        </nav>
+        <div class="hamburger w-nav-button">
+          <div class="hamburger w-icon-nav-menu"></div>
+        </div>
+      </div>
     </div>
-  </nav>
-  <header class="header" id="header" role="banner"><img alt="Command F5 Project Logo" class="header-image" src="images/F5new-logo.png">
-    <div class="logotitle">
-      <div class="banner-title">A Project Focused on Encouraging Inclusive Design &amp; Development</div>
+  </div>
+  <header class="header" id="header" role="banner">
+    <div class="titleblock">
+      <h1 class="h1">The Command <span class="blue">F5</span> Project</h1>
+      <div class="titlesubtext">Encouraging Accessible &amp; Inclusive Design and Development</div>
     </div>
   </header>
   <div class="main-content">
@@ -60,8 +73,8 @@
     </main>
   </div>
   <div class="page-titlearea">
-    <div class="h2 w-container"><img alt="icon showing a computer monitor and headphones" class="headphones" src="images/headphone-dark.png">
-      <h2 class="h2">How To Listen to Your Interface</h2>
+    <div class="h2 w-container">
+      <h2 class="h2 icon">How To Listen to Your Interface</h2>
     </div>
   </div>
   <div class="content-section2">
@@ -88,9 +101,9 @@
             <br><a href="https://support.apple.com/en-us/HT204434" target="_blank">Check out all of Apple's Accessibility Shorcuts</a>
           </p>
         </div>
-        <div class="w-col w-col-6">
+        <div class="col2responsive w-col w-col-6">
           <div class="griddiv2">
-            <h3 class="h4">For Windows PC Users</h3><img alt="photo showing the PC user operation windows key and u key" class="howimage" sizes="(max-width: 479px) 85vw, (max-width: 767px) 91vw, (max-width: 991px) 336.3125px, 437px" src="images/PCUsers-U.png" srcset="images/PCUsers-U-p-500x142.png 500w, images/PCUsers-U-p-800x226.png 800w, images/PCUsers-U-p-1080x306.png 1080w, images/PCUsers-U.png 1200w">
+            <h3 class="h4">For Windows PC Users</h3><img alt="photo showing the PC user operation windows key and u key" class="howimage" sizes="(max-width: 479px) 87vw, (max-width: 767px) 92vw, (max-width: 991px) 336.3125px, 437px" src="images/PCUsers-U.png" srcset="images/PCUsers-U-p-500x142.png 500w, images/PCUsers-U-p-800x226.png 800w, images/PCUsers-U-p-1080x306.png 1080w, images/PCUsers-U.png 1200w">
             <div class="p">The Windows operating system includes several accessibility features that make using Windows easier, for people with age-related or other disabilities. By the time folks cross the fifties, most will have vision, hearing, or dexterity impairments.
               <br>
               <br>The hot keys vary based on your PC and it's operating system but try this: Hit the <strong>Windows Logo Key + U</strong>. This should open your Ease of Access Options.

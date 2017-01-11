@@ -1,11 +1,19 @@
 .header {
   position: static;
   width: 100%;
-  margin-bottom: 0px;
+  min-height: 450px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
   border-style: solid;
   border-width: 0px;
   border-color: #000 #000 #4d78e4;
-  background-color: #036;
+  background-color: #fff;
+  background-image: url('../images/bg3.jpg');
+  background-position: 50% 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
   text-align: center;
 }
 
@@ -37,29 +45,47 @@
 }
 
 .h1 {
-  margin: 0px auto 13px;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  margin: 0px auto -3px;
+  padding-top: 33px;
+  padding-bottom: 4px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 40px;
-  line-height: 50px;
-  font-weight: 400;
+  color: #010101;
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 600;
   text-align: center;
 }
 
+.h1.about {
+  margin-bottom: 23px;
+  text-align: left;
+}
+
 .h2 {
-  margin-bottom: 21px;
+  margin-bottom: 0px;
   font-family: 'Open Sans', sans-serif;
   color: #000;
-  font-size: 36px;
-  line-height: 50px;
+  font-size: 40px;
+  line-height: 55px;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
 }
 
 .h2.listen {
   margin-bottom: 30px;
   color: #333;
+}
+
+.h2.about {
+  margin-top: 46px;
+  margin-bottom: 14px;
+}
+
+.h2.icon {
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-left: 0px;
+  line-height: 55px;
 }
 
 .h3 {
@@ -130,7 +156,9 @@
 }
 
 .headphones {
+  width: 60px;
   padding-top: 30px;
+  float: left;
   opacity: 0.76;
 }
 
@@ -170,7 +198,7 @@
 }
 
 .topnav {
-  padding-left: 10px;
+  padding-left: 0px;
 }
 
 .banner-title {
@@ -180,6 +208,15 @@
   color: #fff;
   font-size: 21px;
   line-height: 30px;
+}
+
+.a.skiplink {
+  color: #c7d4f5;
+  text-decoration: none;
+}
+
+.a.skiplink.w--current {
+  padding-left: 5px;
 }
 
 .row {
@@ -203,7 +240,8 @@
 
 .heroblock {
   min-height: 250px;
-  margin-bottom: 16px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   background-image: url('../images/Untitled-design-2.png');
   background-position: 0px 0px;
   background-size: cover;
@@ -236,7 +274,10 @@
 }
 
 .twitter {
+  width: auto;
+  margin-right: auto;
   margin-left: auto;
+  text-align: left;
 }
 
 .footercontainer {
@@ -244,9 +285,83 @@
   border-top: 2px solid #ccc;
 }
 
+.menu-logo {
+  max-height: 40px;
+  margin-top: 10px;
+}
+
+.navblock {
+  background-color: #036;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: #f5eb0b;
+}
+
+.nav-link:active {
+  color: #306aaa;
+}
+
+.nav-link:focus {
+  text-decoration: underline;
+}
+
+.blue {
+  color: #0d53bd;
+}
+
+.titlesubtext {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.titleblock {
+  max-width: 650px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.skipcontentbar {
+  background-color: #036;
+}
+
+.bannerimage {
+  margin-top: 45px;
+}
+
+.emptydiv {
+  height: 200px;
+}
+
 @media (max-width: 991px) {
+  .header {
+    min-height: 325px;
+    margin-bottom: 61px;
+  }
   .header-image {
     max-width: 600px;
+  }
+  .contentsection1 {
+    margin-bottom: 0px;
+  }
+  .page-titlearea {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .h2.icon {
+    padding-top: 0px;
+  }
+  .content-section2 {
+    margin-top: 22px;
+  }
+  .gridcontainer {
+    padding-top: 0px;
   }
   .hero-right-image {
     max-width: 75%;
@@ -255,6 +370,9 @@
 }
 
 @media (max-width: 767px) {
+  .header {
+    min-height: 365px;
+  }
   .header-image {
     max-width: 400px;
   }
@@ -262,15 +380,30 @@
     padding-right: 25px;
     padding-left: 25px;
   }
+  .page-titlearea {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .h2.about {
+    font-size: 31px;
+    line-height: 40px;
+  }
+  .h2.icon {
+    padding-top: 0px;
+  }
   .h3 {
     line-height: 30px;
+  }
+  .col1 {
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .drivdiv {
     margin-right: 0%;
   }
   .griddiv2 {
-    margin-top: 35px;
-    margin-left: 0%;
+    margin-top: 64px;
+    margin-left: 0px;
   }
   .content-section2 {
     margin-right: auto;
@@ -279,10 +412,13 @@
     padding-left: 25px;
   }
   .topnav {
-    padding-left: 24px;
+    padding-left: 25px;
   }
   .banner-title {
     line-height: 35px;
+  }
+  .a.skiplink.w--current {
+    padding-left: 0px;
   }
   .logotitle {
     max-width: 450px;
@@ -290,12 +426,56 @@
   .hero-right-image {
     max-width: 88%;
   }
+  .menu-logo {
+    margin-left: 11px;
+  }
+  .hamburger {
+    color: #fff;
+    font-size: 32px;
+  }
+  .titlesubtext {
+    padding-top: 13px;
+  }
+  .titleblock {
+    max-width: 450px;
+  }
+  .pagecontentabout {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .col2responsive {
+    padding-left: 0px;
+  }
 }
 
 @media (max-width: 479px) {
+  .header {
+    min-height: 310px;
+    background-image: url('../images/bg3.jpg');
+    background-position: 50% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
   .header-image {
     width: 100%;
     max-width: 300px;
+  }
+  .h1 {
+    font-size: 35px;
+    line-height: 42px;
+  }
+  .h2 {
+    font-size: 31px;
+    line-height: 40px;
+  }
+  .h2.icon {
+    padding-left: 0px;
+    line-height: 40px;
+  }
+  .col1 {
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .icon-headphones {
     padding-top: 0px;
@@ -306,6 +486,9 @@
     -webkit-perspective: 1286px;
     perspective: 1286px;
   }
+  .headphones {
+    display: none;
+  }
   .logotitle {
     max-width: 80%;
   }
@@ -315,6 +498,18 @@
   .hero-right-image {
     max-width: 76%;
     padding-top: 29px;
+  }
+  .hamburger.w--open {
+    background-color: #000;
+  }
+  .titlesubtext {
+    font-size: 20px;
+  }
+  .titleblock {
+    max-width: 300px;
+  }
+  .dropdown {
+    background-color: #000;
   }
 }
 
