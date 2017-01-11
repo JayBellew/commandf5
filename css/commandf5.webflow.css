@@ -304,11 +304,20 @@
 }
 
 .nav-link:active {
-  color: #306aaa;
+  color: #fff;
 }
 
 .nav-link:focus {
   text-decoration: underline;
+}
+
+.nav-link.w--current:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link.new.w--current {
+  color: #fff;
 }
 
 .blue {
