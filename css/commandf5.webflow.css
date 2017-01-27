@@ -669,9 +669,17 @@ body {
   .menu-logo {
     margin-left: 11px;
   }
+  .nav-link.w--current {
+    border-width: 0px;
+    color: #fff;
+    text-decoration: underline;
+  }
   .hamburger {
     color: #fff;
     font-size: 32px;
+  }
+  .hamburger.w--open {
+    background-color: #036;
   }
   .titlesubtext {
     padding-top: 13px;
@@ -682,6 +690,9 @@ body {
   .pagecontentabout {
     margin-right: 25px;
     margin-left: 25px;
+  }
+  .dropdown {
+    background-color: #036;
   }
   .col2responsive {
     padding-left: 0px;
@@ -752,7 +763,7 @@ body {
     padding-top: 29px;
   }
   .hamburger.w--open {
-    background-color: #000;
+    background-color: #036;
   }
   .titlesubtext {
     font-size: 20px;
@@ -761,7 +772,7 @@ body {
     max-width: 300px;
   }
   .dropdown {
-    background-color: #000;
+    background-color: #036;
   }
   .innerblocktext {
     clear: both;
