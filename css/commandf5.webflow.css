@@ -573,6 +573,11 @@ body {
   margin-top: 35px;
 }
 
+.footertext {
+  color: #3d3c3c;
+  font-weight: 400;
+}
+
 @media (max-width: 991px) {
   .header {
     min-height: 325px;
