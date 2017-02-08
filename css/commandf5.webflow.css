@@ -502,6 +502,14 @@ body {
   background-size: 493px, auto;
 }
 
+.listimage._2.a {
+  background-image: url('../images/Screen-Shot-2017-01-27-at-2.08.15-PM.png'), -webkit-linear-gradient(270deg, hsla(0, 2%, 81%, .5), hsla(0, 2%, 81%, .5));
+  background-image: url('../images/Screen-Shot-2017-01-27-at-2.08.15-PM.png'), linear-gradient(180deg, hsla(0, 2%, 81%, .5), hsla(0, 2%, 81%, .5));
+  background-position: 50% 0px, 0px 0px;
+  background-size: cover, auto;
+  background-repeat: no-repeat, repeat;
+}
+
 .listimage._3 {
   background-image: url('../images/Screen-Shot-2017-01-26-at-5.26.44-PM.png'), -webkit-linear-gradient(270deg, hsla(0, 2%, 81%, .5), hsla(0, 2%, 81%, .5));
   background-image: url('../images/Screen-Shot-2017-01-26-at-5.26.44-PM.png'), linear-gradient(180deg, hsla(0, 2%, 81%, .5), hsla(0, 2%, 81%, .5));
