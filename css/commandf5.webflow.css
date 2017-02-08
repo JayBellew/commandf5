@@ -756,8 +756,13 @@ body {
   .col2responsive {
     padding-left: 0px;
   }
+  .listimage._1 {
+    margin-right: 30px;
+  }
   .list-content {
-    width: 65%;
+    display: block;
+    width: auto;
+    float: none;
   }
   .content-container {
     margin-top: 20px;
